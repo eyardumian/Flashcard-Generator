@@ -1,0 +1,25 @@
+{
+  "name": "Flashcard-Generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BasicCard.js",
+  "dependencies": {
+    "firebase": "^4.3.0",
+    "inquirer": "^3.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyardumian/Flashcard-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyardumian/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/eyardumian/Flashcard-Generator#readme"
+}

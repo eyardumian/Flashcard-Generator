@@ -20,13 +20,13 @@ function ClozeCard(text, cloze) {
   }
 };
 
-//Test ClozeCard
+//Test ClozeCard with errorMessage
 var firstPresidentCloze = new ClozeCard(
     "George Washington was the first president of the United States.", "tom");
 
-console.log(firstPresidentCloze.cloze);
-console.log(firstPresidentCloze.partial);
-console.log(firstPresidentCloze.fullText);
+// console.log(firstPresidentCloze.cloze);
+// console.log(firstPresidentCloze.partial);
+// console.log(firstPresidentCloze.fullText);
 
 
 module.exports = ClozeCard;
