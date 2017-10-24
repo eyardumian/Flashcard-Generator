@@ -53,16 +53,17 @@ function promptBasic() {
         type: "input",
         message: "What is your question for the front side?",
         name: "frontBasic"
-        default: "You didn't enter a question."
-    }
+        // default: function() {
+        // return "You didn't enter a question."}
+    // }
       },
       {
         type: "input",
         message: "What is your answer for the back?",
         name: "backBasic"
-        default: function () {
-			return 'Add your full text here.';
-    }
+    //     default: function () {
+		// 	return 'Add your full text here.';
+    // }
       },
       {
         type: "confirm",
